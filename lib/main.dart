@@ -17,11 +17,12 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: "AIzaSyCZ-xrXqD5D19Snauto-Fx_nLD7PLrBXGM",
-        appId: "1:585119731880:web:eca6e4b3c42a755cee329d",
-        messagingSenderId: "585119731880",
-        projectId: "instagram-clone-4cea4",
-        storageBucket: 'instagram-clone-4cea4.appspot.com'
+  apiKey: "AIzaSyCBkRvvCz5cclaLURTxgQkLv2i0R6YgZN4",
+  authDomain: "mid-connect-flutter.firebaseapp.com",
+  projectId: "mid-connect-flutter",
+  storageBucket: "mid-connect-flutter.appspot.com",
+  messagingSenderId: "905826154698",
+  appId: "1:905826154698:web:655a44331d8b6c5f531c33"
       ),
     );
   } else {
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Instagram Clone',
+        title: 'mid-connect',
         theme: ThemeData.dark().copyWith(
           scaffoldBackgroundColor: mobileBackgroundColor,
         ),

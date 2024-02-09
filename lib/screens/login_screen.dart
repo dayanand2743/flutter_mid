@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:instagram_clone_flutter/resources/auth_methods.dart';
 import 'package:instagram_clone_flutter/responsive/mobile_screen_layout.dart';
 import 'package:instagram_clone_flutter/responsive/responsive_layout.dart';
@@ -78,11 +77,15 @@ class _LoginScreenState extends State<LoginScreen> {
                 flex: 2,
                 child: Container(),
               ),
-              SvgPicture.asset(
-                'assets/ic_instagram.svg',
-                color: primaryColor,
-                height: 64,
+              Image.asset(
+                'assets/images/login.jpg',
+                height: 300,
               ),
+              //const Center(
+          //child: Text('MID CONNECT',
+         // style:TextStyle(fontSize: 20),),
+       // ),
+
               const SizedBox(
                 height: 64,
               ),
